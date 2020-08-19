@@ -15,6 +15,7 @@ import java.util.List;
 
 @RequestMapping("/api/settlement/v2")
 @RestController
+@CrossOrigin
 public class SettlementRestController {
     @Autowired
     SettlementServiceImpl settlementService;
