@@ -28,13 +28,10 @@
                 <td>${item.patronymic}</td>
                 <td>${item.passport}</td>
                 <td>${item.comment}</td>
-               <!-- <td><a href="http://localhost:8080/web/client/get/${item.id}">
-                        <input type="button" value="info" class="btn btn-primary" onclick=alert("IHateWeb")>
-                    </a> </td>
-                --><td><a href="http://localhost:8080/web/client/update/${item.id}">
+               <td><a href="/web/client/update/${item.id}">
                         <input type="button" value="update" class="btn-primary">
                     </a> </td>
-                <td><a href="http://localhost:8080/web/client/delete/${item.id}">
+                <td><a href="/web/client/delete/${item.id}">
                         <input type="button" value="delete" class="btn-danger">
                     </a></td>
             </tr>

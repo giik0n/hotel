@@ -28,10 +28,10 @@
                 <td>${item.checkInDate}</td>
                 <td>${item.checkOutDate}</td>
                 <td>${item.comment}</td>
-               <td><a href="http://localhost:8080/web/settlement/update/${item.settlementId}">
+               <td><a href="/web/settlement/update/${item.settlementId}">
                         <input type="button" value="update" class="btn-primary">
                     </a> </td>
-                <td><a href="http://localhost:8080/web/settlement/delete/${item.settlementId}">
+                <td><a href="/web/settlement/delete/${item.settlementId}">
                         <input type="button" value="delete" class="btn-danger">
                     </a></td>
             </tr>

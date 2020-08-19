@@ -26,10 +26,10 @@
                 <td>${item.roomCapacity}</td>
                 <td>${item.comfort}</td>
                 <td>${item.price}</td>
-               <td><a href="http://localhost:8080/web/room/update/${item.roomId}">
+               <td><a href="/web/room/update/${item.roomId}">
                         <input type="button" value="update" class="btn-primary">
                     </a> </td>
-                <td><a href="http://localhost:8080/web/room/delete/${item.roomId}">
+                <td><a href="/web/room/delete/${item.roomId}">
                         <input type="button" value="delete" class="btn-danger">
                     </a></td>
             </tr>
