@@ -14,6 +14,7 @@ import java.util.List;
 
 @RequestMapping("/api/client/v2")
 @RestController
+@CrossOrigin
 public class ClientRestController {
     @Autowired
     ClientServiceImpl clientService;
